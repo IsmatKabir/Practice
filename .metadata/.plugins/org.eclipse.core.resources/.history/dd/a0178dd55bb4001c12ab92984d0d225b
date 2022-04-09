@@ -1,0 +1,46 @@
+package learnjavaismat;
+
+import java.util.Scanner;
+
+public class Scanner1 {
+public static void main(String[] args) {
+
+	Scanner sc1=new Scanner(System.in);
+	
+	System.out.println("          Fresh Food bazar                       ");
+	System.out.println("          45,woodside avenue                     ");
+	System.out.println("           Elmhurst,Ny 11373                     ");
+	System.out.println("            718 466 2250                         ");
+	System.out.println("-------------------------------------------------");
+
+	
+	System.out.println("List of item");
+	System.out.println("nutella qty");
+	int nutqt=sc1.nextInt();
+	System.out.println("nutella price");
+	double nutprc=sc1.nextDouble();
+	double nutttl=nutqt*nutprc;
+	System.out.println("nutella total price"    +  nutttl   );
+	System.out.println("Strawberry box qty");
+	short strqt=sc1.nextShort();
+	System.out.println("strawberry box price");
+	double strpc=sc1.nextDouble();
+	double strttl=strqt*strpc;
+	System.out.println("strawberry total price"  +strttl   );
+	double subtt=nutttl+strttl;
+	System.out.printf("Subtotal=  $%.2f"   +subtt            );
+	System.out.println();
+	double ttltax=subtt*.0887;
+	System.out.printf("total tax=  $%.2f"  +ttltax            );
+	System.out.println();
+	double totalAfterTax=subtt+ttltax;
+	System.out.printf("Total After Tax= $%.2f" +totalAfterTax );
+	System.out.println();
+	System.out.println("************Thank you*******");
+
+
+
+
+
+}
+}

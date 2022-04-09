@@ -1,0 +1,25 @@
+package learnjavaismat;
+
+public class Learnconcatenation {
+
+public static void main(String args[]) {
+	
+int age=39;
+String firstname="Ismat";
+String lastname="Kabir";
+String favcolor="Green";
+System.out.println("Student Fullname is:" +firstname +"   "+ lastname );
+System.out.print("age:  ");
+System.out.println(age);
+		
+//System.out.println(firstname +"   "+ lastname );
+	
+System.out.println("My full Name is:"    +firstname +"" +lastname +""  );	
+System.out.println("And My Age is:" +age     );
+System.out.println(favcolor+ ""   + "is my favourite color");
+	
+	
+}
+	
+	
+}

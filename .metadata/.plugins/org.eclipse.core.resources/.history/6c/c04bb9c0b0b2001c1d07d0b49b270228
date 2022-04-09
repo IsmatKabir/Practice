@@ -1,0 +1,22 @@
+package learnjavaismat;
+
+import java.util.Scanner;
+
+public class Homeworkscanner {
+   
+public static void main(String[] args) {
+	
+Scanner sc = new Scanner(System.in);
+	
+	
+      System.out.println("Gumqty     ");	  
+	 int qgum=sc.nextInt()	;
+	
+      System.out.println("gumprice");	
+	  double pgum= sc.nextDouble();
+	
+	  double  totalp = qgum*pgum;
+	  
+	  System.out.println("totalp" );
+}
+}

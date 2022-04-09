@@ -1,0 +1,60 @@
+package q2022;
+
+import java.io.PrintStream;
+import java.util.Scanner;
+
+public class Ar {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+				
+				
+		
+		System.out.println("nutella qty");
+		int nutqt =sc.nextInt();
+		System.out.println("nutella Price");
+		int nutpi =sc.nextInt();
+		double totalnud=nutqt*nutpi;
+		System.out.println("dates box qty");
+		int daqt=sc.nextInt();
+		System.out.println("date box price");
+	    double datprice= sc.nextDouble();
+	    double totalDatePrice=daqt*datprice;
+	    double subtt=totalnud+totalDatePrice;
+	    double tax=subtt*.0887;
+	    double tft=subtt+tax;
+	    System.out.println("      45 WOODSIDE AVENUE                  ");
+		System.out.println("       ELMHURST , NY                      ");
+		System.out.println("        11373                             ");
+		System.out.println("        718 426 3674                      ");
+		System.out.println("******************************************");
+	    System.out.println("   *  item              Qty                    price      ");
+	    System.out.println("    * nutella  \t " +nutqt+ "\t\t" +   "$" +totalnud        );
+	    System.out.println("    *  date box   \t "  +daqt+  "\t\t"  +  "$" +totalDatePrice);                                         );
+	    System.out.println("____________________________________________________________");
+	    System.out.printf("  sub total= $%.2f ",     subtt      );
+	   System.out.println();
+	    System.out.printf("   sale tax= $%.2f " ,           tax     );
+	    System.out.println();
+	    System.out.printf("     totalAfterTax=$%.2f",      tft           );
+	
+
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

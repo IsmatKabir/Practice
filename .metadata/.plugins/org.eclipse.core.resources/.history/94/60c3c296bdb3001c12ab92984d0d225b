@@ -1,0 +1,39 @@
+package learnjavaismat;
+
+import java.util.Scanner;
+
+public class ScannerHomedepo {
+	
+public static void main(String[] args) {
+	
+	
+Scanner sc=new Scanner(System.in);	
+	
+	
+System.out.println("-------THE HOME DEPOT------------");	
+System.out.println("--------65 CROOKED HILL RD (631 493-2320");
+System.out.println("-------SALE SELF CHECKOUT----------");
+
+
+System.out.println("Name of Item");
+System.out.println("WATERPROFF");
+double watpr=sc.nextDouble();
+System.out.println("WATERPROOF" + ""  +watpr);
+System.out.println("keys");
+double kys=sc.nextDouble();
+System.out.println("keys"  + ""  + kys        );	
+double subtt=watpr+kys;	
+System.out.println("total price="  +subtt );
+System.out.println("sale tax");
+double tax= subtt*.0887;
+System.out.printf("sales tax =$%.2f ",  +tax      ); 
+	
+System.out.println("Total After Tax");	
+double ttl=	subtt+tax;
+System.out.printf("Total After Tax= $%.2f", + ttl);	
+System.out.println();
+System.out.println("-------Thank You--------");	
+	
+}	
+	
+}

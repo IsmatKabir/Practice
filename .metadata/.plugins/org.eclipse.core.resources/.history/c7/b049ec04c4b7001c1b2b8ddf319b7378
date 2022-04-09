@@ -1,0 +1,62 @@
+package learnjavaismat;
+
+public class Rajib {
+static int age=37;
+String name= "dey";	
+	
+	public static void main(String[] args) {
+	
+		
+		
+	}
+	
+	
+	
+	
+public static class maanav {
+	public int age1=5;
+	String name1="dey1";
+	void Learning() {
+	System.out.println(" i am learning");	
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		maanav m= new maanav();
+		
+	System.out.println(m.age1);	
+	System.out.println(m.name1);	
+		
+		Rajib r= new Rajib();
+		System.out.println(r.age);
+		r.age=38;
+		System.out.println(r.age);
+		double age2=(double)age;
+		System.out.println(age2);
+		m.Learning();
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

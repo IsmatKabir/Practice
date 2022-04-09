@@ -1,0 +1,106 @@
+package learnjavaismat;
+
+public class Alpha {
+//parent class
+	char size='m';
+	
+public static class Computer{
+
+//child class	
+// if the child class is static then it will take static variable otherwise not.	
+int age =34	;
+String phone="iphone";
+static String name ="aunonto";
+public static void main	(String args[]) {
+	System.out.println("this is child class");
+	// calling static variable wit child clssname in childclass main method
+	System.out.println(Computer.name);
+	//to call age create object
+	Computer myComputer=new Computer();
+	System.out.println(myComputer.age);
+	//calling method inside child class main method
+	myComputer.computerDisplay();
+	//we can create object of parent class in child class to call parent class variable
+	 
+	Alpha alpha=new Alpha();
+	//calling parent class variable in child class with the object of parent class
+	System.out.println("dress size=" +alpha.size  );
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	public void computerDisplay() {
+		System.out.println("this is computer display");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+public static void main(String[] args) {
+	
+	System.out.println("this is parent class");
+	Computer myCom=new Computer();
+	System.out.println("calling child class variable which is age=" + myCom.age );
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

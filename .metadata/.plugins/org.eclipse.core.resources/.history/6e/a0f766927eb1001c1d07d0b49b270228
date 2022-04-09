@@ -1,0 +1,23 @@
+package learnjavaismat;
+
+public class Akash {
+	
+static String name="kabir";	
+	
+static {	
+
+System.out.println(name);	
+	
+	
+	
+System.out.println("ismat");
+}	
+
+	
+	
+	
+	
+public static void main(String[] args) {
+System.out.println();	
+}
+}

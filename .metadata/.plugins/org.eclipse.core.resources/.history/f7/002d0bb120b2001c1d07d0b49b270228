@@ -1,0 +1,27 @@
+package learnjavaismat;
+
+public class Static {
+
+static String name= "Akash";
+	
+	String address= "Queens";
+	
+	
+	
+	
+	public static void main(String[] args) {
+	System.out.println("name");	
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

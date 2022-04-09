@@ -1,0 +1,31 @@
+package learnjavaismat;
+
+public class Learnvariable1 {
+
+	
+int age=24;	
+static String salary="5000";	
+	
+	
+	
+public static void main (String args[]) {	
+	
+	System.out.println(salary);
+	
+
+	
+	
+Learnvariable1 obj = new Learnvariable1();	
+Learnvariable1 lv =new Learnvariable1();	
+
+lv.salary=6666;	
+
+System.out.println(lv.salary);
+	
+	
+	
+}	
+
+
+
+}

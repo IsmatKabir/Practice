@@ -1,0 +1,29 @@
+package learnjavaismat;
+
+public class Learnstatic {
+
+static String name="Aunonnya";
+
+String address=" Queens,Ny";
+
+
+public static void main(String[] args) {
+	
+System.out.println(Learnstatic.name);	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

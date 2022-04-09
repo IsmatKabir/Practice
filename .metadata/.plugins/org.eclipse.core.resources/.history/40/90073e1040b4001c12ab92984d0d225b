@@ -1,0 +1,25 @@
+package learnjavaismat;
+
+public class Casting {
+
+static int number=50;	
+static double salary=500.99;	
+	
+	public static void main(String[] args) {
+	int newsalary=(int)	Casting.salary;
+	double num=Casting.number;
+	System.out.println(newsalary);
+	System.out.println(num);
+	
+	float rent=2300.50f;
+	double rentApril=(double) rent;
+	float rentMay=(float)rentApril;
+	
+	System.out.println(rentApril);
+	System.out.println(rentMay);
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,33 @@
+package learnjavaismat;
+
+public class Mobile {
+
+	
+	String mobile="iphone";
+	int mobileRamSize=12;
+	int mobileMemorySize=256;
+	static String mobileColor= "white";
+	public void calling() {
+	System.out.println("we can call by mobile phone");
+	
+	
+	}	
+	public static void main (String args[]) {
+	System.out.println();	
+	
+	//crate object
+	//classname objectName=new constructor();
+	Mobile ismatMobile=new Mobile();
+	//ismatMobile.mobile;
+	//you cant call only the variable but when u reassign the valu then you can call
+	ismatMobile.mobile="samsung";
+	String newMobile=ismatMobile.mobile;
+	System.out.println("Ismat mobile is"  +"  " +  newMobile);
+	
+	
+	
+	
+	
+	
+	}	
+}

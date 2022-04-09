@@ -1,0 +1,19 @@
+package learnjavaismat;
+
+public class Akash {
+	
+	
+	
+static {	
+	
+System.out.println("ismat");
+}	
+
+	
+	
+	
+	
+public static void main(String[] args) {
+System.out.println();	
+}
+}

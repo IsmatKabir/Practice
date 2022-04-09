@@ -1,0 +1,29 @@
+package learnjavaismat;
+
+public class Aumi{
+int age=15;
+String name="Aunonto";
+String address="Queens";	
+static   String pnumber	="9178588580";
+	
+	
+	
+public static void main(String[] args) {
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

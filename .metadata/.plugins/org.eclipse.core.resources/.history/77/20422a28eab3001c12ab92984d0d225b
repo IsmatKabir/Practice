@@ -1,0 +1,17 @@
+package learnjavaismat;
+
+public class Variablepractice {
+static String name="Aunonto";
+
+int age=15;
+
+public static void main(String[] args) {
+Problemvariable vrl=new Problemvariable()	;
+vrl.age=15;
+Problemvariable.name="Aunonto";
+
+System.out.println("Variablepractice.name;");
+System.out.println("vrl.age");
+
+}
+}

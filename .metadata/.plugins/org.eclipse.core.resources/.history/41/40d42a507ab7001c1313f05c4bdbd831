@@ -1,0 +1,23 @@
+package learnjavaismat;
+
+public class Aunonto {
+public static void main(String[] args) {
+
+Aumi om=new Aumi()	;
+	
+om.age=15;	
+	
+	System.out.println("My age is "  +om.age      );
+	
+	om.age=20;
+	
+	System.out.println("My age is "  +om.age );  
+	om.address="bronx";
+
+	System.out.println("My address is"  +om.address);
+om.pnumber="9178588580";
+
+System.out.println("My phone number is " +om.pnumber           );
+
+}
+}

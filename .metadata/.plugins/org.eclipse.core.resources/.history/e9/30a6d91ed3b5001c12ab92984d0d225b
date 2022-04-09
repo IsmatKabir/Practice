@@ -1,0 +1,28 @@
+package learnjavaismat;
+
+public class Object {
+  
+//object is instance of a class and it will help us to call the states/properties and behavior/ method
+	//also object is blueprint of a class
+	//states/properties
+	String mobile="iphone";
+	int mobileRamSize=12;
+	int mobileMemorySize=256;
+	String mobileColor= "white";
+	public void calling() {
+	System.out.println("we can call by mobile phone");
+	
+	
+	}	
+	public static void main (String args[]) {
+	System.out.println();	
+	
+	//crate object
+	
+	
+	
+	
+	
+	
+	}
+}

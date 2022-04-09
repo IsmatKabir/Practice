@@ -1,0 +1,31 @@
+package learnjavaismat;
+
+public class Nesteted {
+  
+//nested class is parent class
+	//we are creating another child class computer inside the parent class
+	
+	 int age= 34;
+	 static String firstname= "Aumi";
+	
+	public static class Computer {
+	public static void main (String args[]) {
+	System.out.println("this is parent class");
+	
+	
+	}	
+	}
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+

@@ -1,0 +1,31 @@
+package learnjavaismat;
+
+import learnjavaismat.Nested.Computer;
+
+public class Aumi{
+int age=15;
+String name="Aunonto";
+String address="Queens";	
+static   String pnumber	="9178588580";
+	
+	
+	
+public static void main(String[] args) {
+
+	Computer aumiCom=new Computer();
+	System.out.println(aumiCom.computername);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

@@ -1,0 +1,99 @@
+package learnjavaismat;
+
+public class Alpha {
+//parent class
+	
+	
+public static class computer{
+//child class	
+// if the child class is static then it will take static variable otherwise not.	
+int age =34	;
+static String name ="aunonto";
+public static void main	(String args[]) {
+	System.out.println("this is child class");
+	System.out.println(computer.name);
+	//to call age create object
+	computer myComputer=new computer();
+	System.out.println(myComputer.age);
+	
+	myComputer.computerDisplay();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	public void computerDisplay() {
+		System.out.println("this is computer display");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+public static void main(String[] args) {
+	
+	System.out.println("this is parent class");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,41 @@
+package q2022;
+
+import learnjavaismat.AccessModifier;
+
+public class Jamaica {
+
+	public static void main (String args[])	{
+		AccessModifier acm=new AccessModifier();
+		System.out.println("acm.name");
+		//int a =37;
+		
+		//int b = 12345678;
+		
+		String i = "Ismat";
+		String f = "First_name -";
+		String m = "Age";
+		String p = "Phone";
+				
+				
+		
+	System .out.println(f+i);
+//	System.out.println(m+a);
+	//System.out.println(p+b);
+
+	}
+
+		
+	
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

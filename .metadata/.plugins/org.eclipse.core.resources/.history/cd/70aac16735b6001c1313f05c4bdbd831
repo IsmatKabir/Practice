@@ -1,0 +1,45 @@
+package learnjavaismat;
+
+public class Object {
+  
+//object is instance of a class and it will help us to call the states/properties and behavior/ method
+	//also object is blueprint of a class
+	//states/properties
+	String mobile="iphone";
+	int mobileRamSize=12;
+	int mobileMemorySize=256;
+	String mobileColor= "white";
+	
+	public void calling() {
+	System.out.println("we can call by mobile phone");
+	
+	
+	}	
+	public static void main (String args[]) {
+	System.out.println();	
+	
+	//crate object
+	
+	Mobile yourMobile=new Mobile();
+	yourMobile.mobile="Lg";
+	
+	System.out.println("mobile name is"  +  " "  +   yourMobile.mobile );
+	int lgqty=10;
+	int totalLgPrice=yourMobile.mobilePrice*lgqty;
+	
+//	System.out.println("total Lg price" + yourMobile+totalLgPrice       );
+//	
+//	Mobile hisMobile=new Mobile();
+//	hisMobile.mobile="Nokia";
+//	System.out.println("mobile name is"  +  " " +  hisMobile.mobile );
+//	int nokiaqty=10;
+//	int totalNokiaPrice=hisMobile.mobilePrice*nokiaqty;
+//	System.out.println("total nokia price" + hisMobile.totalNokiaPrice      );
+//	Mobile herMobile=new Mobile();
+//	herMobile.mobile="Samsung";
+//	System.out.println("mobile name is"  +  " "  +  herMobile.mobile );
+//	int samqty=10;
+//	int totalSamPrice=herMobile.mobilePrice*samqty;
+//	System.out.println("total samsung price"  +  "  " + herMobile.totalSamPrice            );
+	}
+}

@@ -1,0 +1,46 @@
+package learnjavaismat;
+
+public class Practice123 {
+	
+	int age=23;
+	static String name=" iphone";
+	double mobilePrice= 1200.00;
+	
+	
+	
+	
+	
+public static void main(String[] args) {
+	
+	Practice123 pr= new Practice123();
+	System.out.println(pr.age);
+	pr.age=20;
+	System.out.println(pr.age);
+	pr.age=34;
+	System.out.println(pr.age);
+	
+	Practice123 prtc=new Practice123();
+	 System.out.println(prtc.mobilePrice);
+	prtc.mobilePrice=1300;
+	System.out.println(prtc.mobilePrice);
+	
+	System.out.println(Practice123.name);
+	
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

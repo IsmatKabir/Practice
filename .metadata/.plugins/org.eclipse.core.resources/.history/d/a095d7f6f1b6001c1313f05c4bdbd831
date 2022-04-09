@@ -1,0 +1,39 @@
+package learnjavaismat;
+
+public class Practice {
+
+	
+int length=22;
+String name;
+String address="Queens,NY";
+static String stid="2022ny";
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+public static void main(String args[]) {	
+System.out.println(stid);	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+	
+	
+}

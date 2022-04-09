@@ -1,0 +1,34 @@
+package learnjavaismat;
+
+public class Casting {
+
+static int number=50;	
+static double salary=500.99;
+
+float rent=2300.50f;
+double rentApril=(double) rent;
+float rentMay=(float)rentApril;
+//these are non static variable. we have to call them with object
+
+	public static void main(String[] args) {
+	int newsalary=(int)	Casting.salary;
+	double num=Casting.number;
+	System.out.println(newsalary);
+	System.out.println(num);
+	
+	Casting ca=new Casting();
+	
+	
+	System.out.println(ca.rentApril);
+	System.out.println(ca.rentMay);
+	
+	byte a=123;
+	short b= (short) a;
+	short c=1000;
+	byte d = (byte)c;
+	}
+	
+	
+	
+	
+}

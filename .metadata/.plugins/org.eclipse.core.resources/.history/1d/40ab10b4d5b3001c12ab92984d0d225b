@@ -1,0 +1,37 @@
+package q2022;
+
+import java.util.Scanner;
+
+public class Ar {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+				
+				
+				System.out.println("      45 WOODSIDE AVENUE                  ");
+		System.out.println("       ELMHURST , NY                      ");
+		System.out.println("        11373                             ");
+		System.out.println("        718 426 3674                      ");
+		System.out.println("******************************************");
+		System.out.println("nutella qty");
+		int nutqt =sc.nextInt();
+		System.out.println("nutella Price");
+		int nutpi =sc.nextInt();
+		double totalnud=nutqt*nutpi;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

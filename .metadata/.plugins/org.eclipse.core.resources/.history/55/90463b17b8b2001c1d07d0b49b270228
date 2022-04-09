@@ -1,0 +1,68 @@
+package learnjavaismat;
+
+import java.util.Scanner;
+
+public class Homeworkscanner {
+   
+public static void main(String[] args) {
+	
+Scanner sc = new Scanner(System.in);
+ float Stax =0.0887f;	
+	
+   
+ 
+ System.out.println("Gumqty     ");	  
+	  int qgum=sc.nextInt()	;
+     
+	  System.out.println("gumprice");	
+	 
+	  double pgum= sc.nextDouble();
+	
+	  
+	  double  totalg = qgum*pgum;
+	  
+	  
+	  
+	  System.out.println("cocoqty     ");	  
+	   int qcooc=sc.nextInt()	;
+		System.out.println("cocoprice");	
+		  double pcoco= sc.nextDouble();
+	     
+		  
+		  double  totalc = qcooc*pcoco;
+	  
+	  double Subtotal = totalg +totalc;
+	  
+	  double totaltex =(( Subtotal )*(Stax));
+	  
+	  double Totalaftx = Subtotal+totaltex;
+	  
+	  
+	  System.out.println("-----------------------------------------" );
+	  System.out.println("---------------STORE NAME--------------" );
+	  System.out.println("----------------ADDRESS-----------------" );
+	 
+	  
+	  
+	  
+	  
+	  
+	  
+	  System.out.println("-----------------------------------------" );
+	  System.out.println();
+	  System.out.println (" ------------------ stotal =  + Subtotal);
+       System.out.println();
+	  System.out.printf ("--------------------tax  =$ %.3", + totaltex);
+	  System.out.println();
+	  System.out.printf ("--------------------Total=$ %.2", + Totalaftx);
+
+
+
+
+
+	  sc.close();
+
+
+
+}
+}

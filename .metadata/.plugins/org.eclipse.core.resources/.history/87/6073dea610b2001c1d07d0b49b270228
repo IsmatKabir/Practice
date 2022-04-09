@@ -1,0 +1,46 @@
+package learnjavaismat;
+
+public class Escapesequence {
+
+public static void main(String[] args) {
+	System.out.println("Hello");
+	String name="Aumi";
+	
+	System.out.println("\" "    + name +    " \" "       );
+	
+   System.out.println("hey,\t   Aumi");
+	
+	System.out.println("My name is    \nAunonto ");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

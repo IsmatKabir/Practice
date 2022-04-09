@@ -1,0 +1,57 @@
+package learnjavaismat;
+
+public class Learnvariable {
+
+	
+public static void main(String args[]) {
+	
+	double salary=12000.500;
+
+	double Annualgrosssalary=salary*12;
+	double Annualnetsalary=Annualgrosssalary-Annualgrosssalary*.3;
+	String firstname="Ismat";
+	String lastname="Kabir";
+	System.out.print("Account details of :");
+	System.out.print(firstname+"  ");
+	System.out.println(lastname);
+	System.out.print("salary:");
+	System.out.println(salary);
+	System.out.print("Annualgrosssalary:");
+	System.out.println(Annualgrosssalary);
+	System.out.print("Annualnetsalary:");
+	System.out.println(Annualnetsalary);
+	
+	
+	Practice pt=new Practice();
+	
+	pt.length=34;
+	System.out.println(pt.length);
+	pt.name="kabir";
+	pt.name="aumi";
+	System.out.println("student name:"  +pt.name);
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

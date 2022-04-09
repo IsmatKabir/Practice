@@ -1,0 +1,35 @@
+package learnjavaismat;
+
+public class Static {
+
+static String name= "Akash";
+	
+	String address= "Queens";
+	
+	
+	
+	
+	public static void main(String[] args) {
+	System.out.println("My name is:"    +   Static.name);	
+	
+	// Craete object
+	
+	Static st = new Static();
+	
+	
+	
+	System.out.println(st.address);
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

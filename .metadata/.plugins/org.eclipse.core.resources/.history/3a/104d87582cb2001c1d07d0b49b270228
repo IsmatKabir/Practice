@@ -1,0 +1,46 @@
+package learnjavaismat;
+
+public class Learnstatic {
+
+static String name= "Aunonnya";
+	
+	String address= "Queens";
+	
+	
+	
+	
+	public static void main(String[] args) {
+	System.out.println("My name is:"    +   Learnstatic.name);	
+	
+	// Craete object
+	
+	Learnstatic ls = new Learnstatic();
+	
+	
+	
+	System.out.println(ls.address);
+	
+	Learnstatic.display();
+	
+	//ls.tvDisplay:
+	}
+	
+	
+	public static void display() {
+		System.out.println("i am learning javascript");
+		
+		
+	
+	//	public void tvDispaly() {
+			System.out.println("this is tv display");
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,86 @@
+package learnjavaismat;
+
+public class Commenting {
+
+	//learning
+	
+	
+	static {
+	System.out.println("we are workig")	;
+	System.out.println("we are reading");
+   // public static void main(String args[])	{
+	
+	}
+	
+    //learning java	
+	
+	//multi line commenting and unccommenting is ctrl+/	
+
+
+	
+
+//    System.out.println("we are practicing")	;
+//	System.out.println("we are reading");
+
+
+//	System.out.println("we are practicing");		
+
+	
+	// document commenting /** then hit enter and it has to be in top of main method
+	/**
+	 * this is document commenting
+	 */
+	
+	/**
+	 *  java is fun
+	 * @param args
+	 */
+	 
+	 /**
+	  * list of food
+	  * mango
+	  * orange
+	  * banana
+	  * 
+	  * @param args
+	  */
+	
+
+
+    public static void main(String args[]) {	
+
+    System.out.println("yahoo")	;
+	//System.out.println("we are reading");
+//System.out.println("we are practicing");
+
+//{} start and close is called block
+
+display();
+
+}
+    
+public static void display() {
+	 System.out.println("study")	;	
+	
+}
+  
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

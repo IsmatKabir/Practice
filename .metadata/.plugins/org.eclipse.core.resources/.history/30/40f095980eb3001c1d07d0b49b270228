@@ -1,0 +1,40 @@
+package learnjavaismat;
+
+import java.util.Scanner;
+
+public class Scannerpractice {
+public static void main(String[] args) {
+
+	Scanner sc=new Scanner (System.in);
+	
+	System.out.println("Enter working hours");
+	int workinghours=sc.nextInt();
+	System.out.println("working hours"   + workinghours );
+	
+	System.out.println("per hour salary");
+	double hourlyrate=sc.nextDouble();
+	System.out.println("per hour salary is" +hourlyrate  );
+	
+	
+	System.out.println("weekly salary");
+	double weeklysalary=workinghours* hourlyrate;
+	System.out.println("weekly salary"  + weeklysalary     );
+	
+	System.out.println("monthly salary");
+	double monthlysalary=weeklysalary*4;
+	System.out.println("monthly salary"   +monthlysalary    );
+	
+
+	System.out.println("yearly gross salary");
+	double yearlysalary=weeklysalary*52;
+	System.out.println("yearly gross salary"   +yearlysalary  );
+	
+	System.out.println("enter tax bracket");
+	double tax=sc.nextDouble();
+	System.out.println("tax bracket" +tax );
+	
+	System.out.println("yearly net salary" ) ;
+	double yearlynetsalary=yearlysalary- yearlysalary*tax;
+	System.out.println("yearly net salary "   +yearlynetsalary       );
+}	
+}

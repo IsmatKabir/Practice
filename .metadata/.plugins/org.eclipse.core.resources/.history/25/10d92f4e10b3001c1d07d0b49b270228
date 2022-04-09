@@ -1,0 +1,53 @@
+package learnjavaismat;
+
+public class Escapesequence {
+
+public static void main(String[] args) {
+	System.out.println("Hello");
+	String name="Aumi";
+	
+	System.out.println("\" "    + name +    " \" "       );
+	//\" meaning text in double quote
+	
+   System.out.println("hey,\t   Aunonnya");
+	// \t is for space meaning tab
+	System.out.println("My name is    \nAunonto ");
+	//\n meaning new line
+	System.out.println("My son name is\r Kabir");
+	//  \r meaning two line one under each
+	
+	System.out.println("Aumii\b");
+	//\b typing mistake correct
+	System.out.println("Ismat Kabir//");
+	//
+	
+	System.out.println("Rahman\\");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

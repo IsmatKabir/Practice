@@ -1,0 +1,99 @@
+package learnjavaismat;
+
+import java.util.Scanner;
+
+public class Learnscanner {
+
+//scanner is a class in java program	
+//scanner take input from user and return the output in console
+
+	
+	public static void main(String[] args) {
+	
+	// create an object of scanner class
+	//scanner class is coming from JDK
+	// argument need to pass	
+		
+	Scanner input=new Scanner( System.in );
+	//this system.in is helping us to take the input from the computer
+	// with this object input we will create method
+	 
+	
+	
+	//System.out.println("enter your name");
+	//String name=input.nextLine();
+	//System.out.println("My name is:"   +name );
+	
+	//System.out.println("where do you live");
+	//String city = input.nextLine();
+	//System.out.println("I live in :"     +city);
+	
+	System.out.println("*****************************************************");
+	
+	System.out.println("...........COSTCO WHOLESALE.......          ");
+	System.out.println("............Rego Park  #1070................");
+	System.out.println("............61-35 Junction Blvd.............");
+	System.out.println("............Rego park,NY 11374..............");
+	
+	System.out.println("Item name");
+	System.out.println("FRITOLAY 54C");
+	double frito= input.nextDouble();
+	System.out.println("fritolay price $ "    + "\t " +   frito);
+	System.out.println("LACTAID 2%");
+	
+	double lac= input.nextDouble();
+	System.out.println("lactaid price" + "\t" +lac  );
+	System.out.println("LACTAID 2%");
+	
+    double lc= input.nextDouble();
+	System.out.println("lactaid price"  +"\t"   +lc);
+	double lt= input.nextDouble();
+	
+	System.out.println("LACTAID 2%");
+	double la =input.nextDouble();
+	System.out.println("lactaid price"  + "\t" +   la   );
+	System.out.println("Potatoes");
+	double ptt= input.nextDouble();
+	System.out.println("potatoes price"  + "\t"  +ptt);
+	System.out.println("VEG SPRING");
+	double vegs=input.nextDouble();
+	System.out.println("veg spring price" + "\t"  +vegs);
+	System.out.println("SWEET ONION");
+	double sweeton=input.nextDouble();
+	System.out.println("Sweet onion price" +  "\t"  +sweeton);
+	
+	System.out.println("VTY DANISH");
+	double vtyda=input.nextDouble();
+	System.out.println(" Danish  price" + "\t" +vtyda);
+	System.out.println("BUTTER CROSS");
+	double butcros=input.nextDouble();
+	System.out.println("butter cross price" +"\t"   +butcros);
+	System.out.println("HALAL TURKEY");
+	double halaltur= input.nextDouble();
+	System.out.println("halal turkey price" +  "\t"  +halaltur);
+	System.out.println("PUREPROTEIN");
+	
+	double ppro=input.nextDouble();
+	System.out.println("pureprotein price" + "\t"   +ppro   );
+	
+	double subtt=frito+lac+lc+lt+la+ptt+vegs+sweeton+vtyda+butcros+halaltur+ppro;
+	System.out.println("total item price"   +subtt);
+	
+	double subt=input.nextDouble();
+	
+	System.out.println("subtotal amount" +"\t" + subt   );
+	System.out.println("tax" );
+	double tx=input.nextDouble();
+	System.out.println("tax amount"  +"\t"           +tx);
+	
+	System.out.println("total");
+	double ttl=input.nextDouble();
+	System.out.println("total amount"  +   "\t"  +ttl);
+	
+	System.out.println("*************Thank You*************");
+	
+	}	
+	
+	
+	
+}

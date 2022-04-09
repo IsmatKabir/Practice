@@ -1,0 +1,42 @@
+package learnjavaismat;
+
+import java.util.Scanner;
+
+public class Learnscanner {
+
+//scanner is a class in java program	
+//scanner take input from user and return the output in console
+
+	
+	public static void main(String[] args) {
+	
+	// create an object of scanner class
+	//scanner class is coming from JDK
+	// argument need to pass	
+		
+	Scanner input=new Scanner( System.in );
+	//this system.in is helping us to take the input from the computer
+	// with this object input we will create method
+	 
+	
+	
+	//System.out.println("enter your name");
+	//String name=input.nextLine();
+	//System.out.println("My name is:"   +name );
+	
+	//System.out.println("where do you live");
+	//String city = input.nextLine();
+	//System.out.println("I live in :"     +city);
+	
+	
+	
+	System.out.println("        COSTCO WHOLESALE               ");
+	System.out.println("   Rego Park  #1070     ");
+	System.out.println("   61-35 Junction Blvd   ");
+	System.out.println("  Rego park,NY 11374    ");
+	
+	}	
+	
+	
+	
+}
